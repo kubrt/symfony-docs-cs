@@ -64,7 +64,7 @@ tradiční web servery jako jsou Apache nebo Nginx, přečtěte si článek
 :doc:`/cookbook/configuration/web_server_configuration`.
 
 
-Otevřete váš prohlížeč a přejděte na URL ``http://localhost:8000`` aby jste viděli
+Otevřete váš prohlížeč a přejděte na URL ``http://localhost:8000``, měly byste vidět
 uvítací stránku (Welcome page) Symfony2:
 
 .. image:: /images/quick_tour/welcome.png
