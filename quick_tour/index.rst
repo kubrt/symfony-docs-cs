@@ -1,4 +1,4 @@
-The Quick Tour
+Rychlý start
 ==============
 
 .. toctree::
