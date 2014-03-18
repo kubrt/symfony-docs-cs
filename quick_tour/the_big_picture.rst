@@ -1,12 +1,14 @@
 The Big Picture
 ===============
 
-Start using Symfony2 in 10 minutes! This chapter will walk you through some of
-the most important concepts behind Symfony2 and explain how you can get started
-quickly by showing you a simple project in action.
+Začněte používat Symfony2 v 10 minutách! Tato kapitola vás provede některými 
+nejdůležitějšími koncepcemi v Symfony2 a ukáže vám, jak rychle začít na příkladu 
+jednoduchého projektu v akci.  
 
-If you've used a web framework before, you should feel right at home with
-Symfony2. If not, welcome to a whole new way of developing web applications.
+Pokud jste v minulosti používaly nějaký webový framework, měly byste se
+v Symfony2 cítit jako doma. V opačném případě vítejte ve zcela novém způsobu
+vývoji webových aplikací.
+
 
 Instalace Symfony2
 -------------------
