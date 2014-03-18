@@ -5,7 +5,7 @@ Začněte používat Symfony2 v 10 minutách! Tato kapitola vás provede někter
 nejdůležitějšími koncepcemi v Symfony2 a ukáže vám, jak rychle začít na příkladu 
 jednoduchého projektu v akci.  
 
-Pokud jste v minulosti používaly nějaký webový framework, měly byste se
+Pokud jste již v minulosti používaly nějaký webový framework, měly byste se
 v Symfony2 cítit jako doma. V opačném případě vítejte ve zcela novém způsobu
 vývoji webových aplikací.
 
@@ -13,10 +13,9 @@ vývoji webových aplikací.
 Instalace Symfony2
 -------------------
 
-First, check that the PHP version installed on your computer meets the Symfony2
-requirements: 5.3.3 or higher. Then, open a console and execute the following
-command to install the latest version of Symfony2 in the ``myproject/``
-directory:
+Nejprve si ověřte, že verze PHP nainstalovaná ve vašem počítači splňuje požadavky
+Symfony2: verze PHP 5.3.3 nebo vyšší. Po té otevřete konsoli a spusťte následující
+příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Symfony2:
 
 .. code-block:: bash
 
