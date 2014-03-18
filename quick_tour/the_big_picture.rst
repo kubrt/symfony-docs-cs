@@ -71,17 +71,17 @@ uvítací stránku (Welcome page) Symfony2:
    :align: center
    :alt:   Symfony2 Welcome Page
 
-Understanding the Fundamentals
+Porozumnění základům
 ------------------------------
 
-One of the main goals of a framework is to keep your code organized and to allow
-your application to evolve easily over time by avoiding the mixing of database
-calls, HTML tags and business logic in the same script. To achieve this goal
-with Symfony, you'll first need to learn a few fundamental concepts and terms.
+Jedním z hlavních cílů frameworku je udžet váš kód organizovaný a aby umožňoval snadný 
+vývoj aplikace v čase, tím že se vyhnete míchání databázových volání, HTML tagů
+a obchodní logiky v jednom skriptu. K dosažení tohoto cíle se musíte v Symfony 
+nejdříve naučit několika základním konceptům a termínům.
 
-Symfony comes with some sample code that you can use to learn more about its
-main concepts. Go to the following URL to be greeted by Symfony2 (replace
-*Fabien* with your first name):
+Symfony přináší několik ukázkových kódů, díky kterým se můžete naučit
+více o jeho hlavních koceptech. Přejděte na následující URL adresu, aby jste se
+seznámili se Symfony2 (nahraďte *Fabien* vaším křestním jménem):
 
 .. code-block:: text
 
