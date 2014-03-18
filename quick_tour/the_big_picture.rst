@@ -19,7 +19,7 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
 
 .. code-block:: bash
 
-    $ composer create-project symfony/framework-standard-edition myproject/ ~2.4
+    $ composer create-project symfony/framework-standard-edition mujprojekt/ ~2.4
 
 .. note::
 
@@ -32,7 +32,7 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
         $ curl -sS https://getcomposer.org/installer | php
         $ sudo mv composer.phar /usr/local/bin/composer
 
-    To install Composer on a Windows system, download the `executable installer`_.
+    Pro instalaci Composeru na sytstému Windowd sis stáhněte `spustitelný instalátor`_.
 
 Beware that the first time you install Symfony2, it may take a few minutes to
 download all its components. At the end of the installation process, the
