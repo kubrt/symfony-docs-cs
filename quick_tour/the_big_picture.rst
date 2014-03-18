@@ -32,39 +32,40 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
         $ curl -sS https://getcomposer.org/installer | php
         $ sudo mv composer.phar /usr/local/bin/composer
 
-    Pro instalaci Composeru na sytstému Windowd sis stáhněte `spustitelný instalátor`_.
+    Pro instalaci Composeru na sytstému Windows sis stáhněte `executable installer`_.
 
 Pozor, první instalace Symfony2 může trvat několik minut, než se stáhnout všechny 
 její komponenty. Na konci instalačního procesu se vás instalátor zeptá na různé
-konfigurační možnosti projektu Symfony2. Během instalace prvního projektu,
+konfigurační možnosti projektu Symfony2. Během instalace prvního projektu
 můžete tuto konfiguraci klidně ignorovat opakovaným stisknutím tlačitka ``<Enter>``.
 
-Running Symfony2
+Spuštění Symfony2
 ----------------
 
-Before running Symfony2 for the first time, execute the following command to
-make sure that your system meets all the technical requirements:
+Před prvním spuštěním Symfony2, spusťe následující příkaz, aby jste se ujistili, 
+že váš systém splňuje všechny technické požadavky:
 
 .. code-block:: bash
 
-    $ cd myproject/
+    $ cd mujproject/
     $ php app/check.php
 
-Fix any error reported by the command and then use the PHP built-in web server
-to run Symfony:
+Opravte všechny chyby reportované příkazem a pak použijte zabudovaný PHP web server
+ke spuštění Symfony:
 
 .. code-block:: bash
 
     $ php app/console server:run
 
-If you get the error `There are no commands defined in the "server" namespace.`,
-then you are probably using PHP 5.3. That's ok! But the built-in web server is
-only available for PHP 5.4.0 or higher. If you have an older version of PHP or
-if you prefer a traditional web server such as Apache or Nginx, read the
-:doc:`/cookbook/configuration/web_server_configuration` article.
+Pokud se zobrazí chyba `There are no commands defined in the "server" namespace.`,
+používáte pravděpodobně PHP ve verzi 5.3. To je v pořádku! Jen zabudovaný web server
+je určen pouze pro verzi PHP 5.4.0 nebo vyšší. Pokud máte starší verzi PHP nebo preferujete
+tradiční web servery jako jsou Apache nebo Nginx, přečtěte si článek
+:doc:`/cookbook/configuration/web_server_configuration`.
 
-Open your browser and access the ``http://localhost:8000`` URL to see the
-Welcome page of Symfony2:
+
+Otevřete váš prohlížeč a přejděte na URL ``http://localhost:8000`` aby jste viděli
+uvítací stránku (Welcome page) Symfony2:
 
 .. image:: /images/quick_tour/welcome.png
    :align: center
@@ -281,7 +282,7 @@ traditional PHP templates if you choose. The
 :doc:`second part of this tutorial</quick_tour/the_view>` will introduce how
 templates work in Symfony2.
 
-Bundles
+Svazky
 ~~~~~~~
 
 You might have wondered why the :term:`Bundle` word is used in many names you
