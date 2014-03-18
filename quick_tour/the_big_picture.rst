@@ -5,7 +5,7 @@ Začněte používat Symfony2 v 10 minutách! Tato kapitola vás provede někter
 nejdůležitějšími koncepcemi v Symfony2 a ukáže vám, jak rychle začít na příkladu 
 jednoduchého projektu v akci.  
 
-Pokud jste již v minulosti používaly nějaký webový framework, měly byste se
+Pokud jste již v minulosti používali nějaký webový framework, měly byste se
 v Symfony2 cítit jako doma. V opačném případě vítejte ve zcela novém způsobu
 vývoji webových aplikací.
 
@@ -36,8 +36,8 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
 
 Pozor, první instalace Symfony2 může trvat několik minut, než se stáhnout všechny 
 její komponenty. Na konci instalačního procesu se vás instalátor zeptá na různé
-konfigurační možnosti projektu Symfony2. V instalaci prvního projektu,
-můžete klidně tuto konfiguraci ignorovat opakovaným stisknutím tlačitka ``<Enter>``.
+konfigurační možnosti projektu Symfony2. Během instalace prvního projektu,
+můžete tuto konfiguraci klidně ignorovat opakovaným stisknutím tlačitka ``<Enter>``.
 
 Running Symfony2
 ----------------
