@@ -8,7 +8,7 @@ quickly by showing you a simple project in action.
 If you've used a web framework before, you should feel right at home with
 Symfony2. If not, welcome to a whole new way of developing web applications.
 
-Installing Symfony2
+Instalace Symfony2
 -------------------
 
 First, check that the PHP version installed on your computer meets the Symfony2
@@ -145,7 +145,7 @@ will be executed. In the next section, you'll learn exactly what that means.
     main features of Symfony2, a framework that never imposes a particular
     configuration format on you.
 
-Controllers
+Řadiče
 ~~~~~~~~~~~
 
 A controller is a PHP function or method that handles incoming *requests* and
@@ -259,7 +259,7 @@ returned array. The name of the template that's rendered follows the name
 of the controller. So, in this example, the ``AcmeDemoBundle:Demo:hello.html.twig``
 template is rendered (located at ``src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig``).
 
-Templates
+Šablony
 ~~~~~~~~~
 
 The controller renders the ``src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig``
