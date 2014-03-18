@@ -1,4 +1,4 @@
-The Big Picture
+Základní přehled
 ===============
 
 Začněte používat Symfony2 v 10 minutách! Tato kapitola vás provede některými 
@@ -23,9 +23,9 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
 
 .. note::
 
-    `Composer`_ is the package manager used by modern PHP applications and the
-    only recommended way to install Symfony2. To install Composer on your
-    Linux or Mac system, execute the following commands:
+    `Composer`_ je manažer balíčků používaný moderními PHP aplikacemi a je to
+    jediný doporučený způsob instalace Symfony2. Pro instalaci Composeru na 
+    vašem systému Linux nebo Mac, spusťe následující příkazy:
 
     .. code-block:: bash
 
@@ -34,11 +34,10 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
 
     Pro instalaci Composeru na sytstému Windowd sis stáhněte `spustitelný instalátor`_.
 
-Beware that the first time you install Symfony2, it may take a few minutes to
-download all its components. At the end of the installation process, the
-installer will ask you to provide some configuration options for the Symfony2
-project. For this first project you can safely ignore this configuration by
-pressing the ``<Enter>`` key repeatedly.
+Pozor, první instalace Symfony2 může trvat několik minut, než se stáhnout všechny 
+její komponenty. Na konci instalačního procesu se vás instalátor zeptá na různé
+konfigurační možnosti projektu Symfony2. V instalaci prvního projektu,
+můžete klidně tuto konfiguraci ignorovat opakovaným stisknutím tlačitka ``<Enter>``.
 
 Running Symfony2
 ----------------
