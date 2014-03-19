@@ -14,7 +14,7 @@ Instalace Symfony2
 -------------------
 
 Nejprve si ověřte, že verze PHP nainstalovaná ve vašem počítači splňuje požadavky
-Symfony2: verze PHP 5.3.3 nebo vyšší. Po té otevřete konsoli a spusťte následující
+Symfony2: verze PHP 5.3.3 nebo vyšší. Po té otevřte konsoli a spusťte následující
 příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Symfony2:
 
 .. code-block:: bash
@@ -32,7 +32,7 @@ příkaz v adresáři ``mujprojekt/``, který nainstaluje nejnovější verzi Sy
         $ curl -sS https://getcomposer.org/installer | php
         $ sudo mv composer.phar /usr/local/bin/composer
 
-    Pro instalaci Composeru na sytstému Windows sis stáhněte `executable installer`_.
+    Pro instalaci Composeru na sytstému Windows si stáhněte `executable installer`_.
 
 Pozor, první instalace Symfony2 může trvat několik minut, než se stáhnout všechny 
 její komponenty. Na konci instalačního procesu se vás instalátor zeptá na různé
@@ -64,7 +64,7 @@ tradiční web servery jako jsou Apache nebo Nginx, přečtěte si článek
 :doc:`/cookbook/configuration/web_server_configuration`.
 
 
-Otevřete váš prohlížeč a přejděte na URL ``http://localhost:8000``, měly byste vidět
+Otevřete váš prohlížeč a přejděte na URL adresu ``http://localhost:8000``. Měly byste vidět
 uvítací stránku (Welcome page) Symfony2:
 
 .. image:: /images/quick_tour/welcome.png
@@ -74,13 +74,13 @@ uvítací stránku (Welcome page) Symfony2:
 Porozumnění základům
 ------------------------------
 
-Jedním z hlavních cílů frameworku je udžet váš kód organizovaný a aby umožňoval snadný 
+Jedním z hlavních cílů frameworku je udžet váš kód organizovaný, tak aby umožňoval snadný 
 vývoj aplikace v čase, tím že se vyhnete míchání databázových volání, HTML tagů
 a obchodní logiky v jednom skriptu. K dosažení tohoto cíle se musíte v Symfony 
 nejdříve naučit několika základním konceptům a termínům.
 
 Symfony přináší několik ukázkových kódů, díky kterým se můžete naučit
-více o jeho hlavních koceptech. Přejděte na následující URL adresu, aby jste se
+více o jeho hlavních konceptech. Přejděte na následující URL adresu, aby jste se
 seznámili se Symfony2 (nahraďte *Fabien* vaším křestním jménem):
 
 .. code-block:: text
@@ -90,24 +90,23 @@ seznámili se Symfony2 (nahraďte *Fabien* vaším křestním jménem):
 .. image:: /images/quick_tour/hello_fabien.png
    :align: center
 
-What's going on here? Have a look at each part of the URL:
+Co se zde děje? Podívejme se na jednotlivé částí URL adresy:
 
-* ``app_dev.php``: This is a :term:`front controller`. It is the unique entry
-  point of the application and it responds to all user requests;
+* ``app_dev.php``: Toto je :term:`front controller`. To je jedinečný vstupní bod aplikace,
+  který odpovídá na všechny uživatelské požadavky;
 
-* ``/demo/hello/Fabien``: This is the *virtual path* to the resource the user
-  wants to access.
+* ``/demo/hello/Fabien``: Toto je *virtuální cesta* ke zdroji, který chce uživatel zpřístuonit.
 
-Your responsibility as a developer is to write the code that maps the user's
-*request* (``/demo/hello/Fabien``) to the *resource* associated with it
-(the ``Hello Fabien!`` HTML page).
+Vaše zodpovědnost jako programátora je napsat kód, který mapuje uživatelský
+*požadavek* (``/demo/hello/Fabien``) na *zdroj* s tímto požadavkem spojený
+(v tomto případě to je HTML stránka ``Hello Fabien!``).
 
-Routing
+Směrování
 ~~~~~~~
 
-Symfony2 routes the request to the code that handles it by matching the
-requested URL (i.e. the virtual path) against some configured paths. The demo
-paths are defined in the ``app/config/routing_dev.yml`` configuration file:
+Symfony2 směřuje požadavky do kódu, který je zpracovává podle odpovídající
+požadované URL adresy (například virtuální cesta) proti nějaké nakonfiguravné cestě. V tomto demu 
+jsou cesty definovány v konfuguračním souboru ``app/config/routing_dev.yml``:
 
 .. code-block:: yaml
 
