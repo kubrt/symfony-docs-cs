@@ -105,7 +105,7 @@ Směrování
 ~~~~~~~
 
 Symfony2 směřuje požadavky do kódu, který je zpracovává podle odpovídající
-požadované URL adresy (například virtuální cesta) proti nějaké nakonfiguravné cestě. V tomto demu 
+požadované URL adresy (například virtuální cesta) dle nějaké nakonfiguravné cesty. V tomto demu 
 jsou cesty definovány v konfuguračním souboru ``app/config/routing_dev.yml``:
 
 .. code-block:: yaml
@@ -141,8 +141,8 @@ V následující sekci se naučíte, co přesně to znamená.
 .. tip::
 
     Kromě souborů YAML, může být směrování konfigurováno v XML nebo PHP souborech
-    a dokonce může být vložen do PHP anotace, Tato flexibilita je jedním z hlavních
-    znaků Symfony2, frameworku, který vám nikdy nenařizuje konkrétní konfigurační
+    a dokonce může být vloženo do PHP anotace, Tato flexibilita je jedním z hlavních
+    znaků Symfony2, frameworku, který vám nikdy neurčuje konkrétní konfigurační
     formát.
 
 Řadiče
