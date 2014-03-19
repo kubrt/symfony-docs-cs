@@ -117,7 +117,7 @@ jsou cesty definovány v konfuguračním souboru ``app/config/routing_dev.yml``:
     _acme_demo:
         resource: "@AcmeDemoBundle/Resources/config/routing.yml"
 
-This imports a ``routing.yml`` file that lives inside the AcmeDemoBundle:
+Toto importuje soubor ``routing.yml``, který se nachází u vnitř AcmeDemoBundle:
 
 .. code-block:: yaml
 
@@ -133,17 +133,17 @@ This imports a ``routing.yml`` file that lives inside the AcmeDemoBundle:
 
     # ...
 
-The first three lines (after the comment) define the code that is executed
-when the user requests the "``/``" resource (i.e. the welcome page you saw
-earlier). When requested, the ``AcmeDemoBundle:Welcome:index`` controller
-will be executed. In the next section, you'll learn exactly what that means.
+První tři řádky (za komentářem) určují kód, který se spustí, když uživatel
+požaduje zdroj "``/``" (například uvítací stránku, kterou jsme viděli výše). 
+Při zadání tohoto požadavku se spustí řadič ``AcmeDemoBundle:Welcome:index``.
+V následující sekci se naučíte, co přesně to znamená.
 
 .. tip::
 
-    In addition to YAML files, routes can be configured in XML or PHP files
-    and can even be embedded in PHP annotations. This flexibility is one of the
-    main features of Symfony2, a framework that never imposes a particular
-    configuration format on you.
+    Kromě souborů YAML, může být směrování konfigurováno v XML nebo PHP souborech
+    a dokonce může být vložen do PHP anotace, Tato flexibilita je jedním z hlavních
+    znaků Symfony2, frameworku, který vám nikdy nenařizuje konkrétní konfigurační
+    formát.
 
 Řadiče
 ~~~~~~~~~~~
