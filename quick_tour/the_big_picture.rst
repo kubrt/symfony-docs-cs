@@ -148,10 +148,10 @@ V následující sekci se naučíte, co přesně to znamená.
 Řadiče
 ~~~~~~~~~~~
 
-A controller is a PHP function or method that handles incoming *requests* and
-returns *responses* (often HTML code). Instead of using the PHP global variables
-and functions (like ``$_GET`` or ``header()``) to manage these HTTP messages,
-Symfony uses objects: :ref:`Request <component-http-foundation-request>`
+Řadič (controller) je funkce nebo metoda PHP, která zpracovává příchozí *požadavky*
+a vrací *odpovědi* (často HTML kód). Místo používání globálních proměných 
+a funkcí (jako jsou ``$_GET`` nebo ``header()``), používá Symfony k řízení 
+těchto HTTP zpráv objekty: :ref:`Request <component-http-foundation-request>`
 and :ref:`Response <component-http-foundation-response>`. The simplest possible
 controller might create the response by hand, based on the request::
 
