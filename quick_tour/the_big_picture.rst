@@ -104,8 +104,8 @@ Vaše zodpovědnost jako programátora je napsat kód, který mapuje uživatelsk
 Směrování
 ~~~~~~~
 
-Symfony2 směřuje požadavky do kódu, který je zpracovává podle odpovídající
-požadované URL adresy (například virtuální cesta) dle nějaké nakonfiguravné cesty. V tomto demu 
+Symfony2 směřuje požadavky do kódu, který zpracovává požadovanou URL adresu 
+(například virtuální cestu), jenž odpovídá nějaké nakonfiguravné cestě. V našem demu 
 jsou cesty definovány v konfuguračním souboru ``app/config/routing_dev.yml``:
 
 .. code-block:: yaml
@@ -117,7 +117,7 @@ jsou cesty definovány v konfuguračním souboru ``app/config/routing_dev.yml``:
     _acme_demo:
         resource: "@AcmeDemoBundle/Resources/config/routing.yml"
 
-Toto importuje soubor ``routing.yml``, který se nachází u vnitř AcmeDemoBundle:
+Tímto se importuje soubor ``routing.yml``, který se nachází u vnitř AcmeDemoBundle:
 
 .. code-block:: yaml
 
